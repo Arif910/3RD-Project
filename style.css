@@ -1,0 +1,124 @@
+/* common property start here */
+body{
+    scroll-behavior: smooth;
+}
+/* common property start here */
+
+
+/* navbar design start here */
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782) !important;
+
+}
+
+.nav-link{
+    color:white !important;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    background: red;
+}
+/* navbar design ends here */
+
+/* banner section design start here */
+#banner{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) !important;
+}
+
+#banner a img{
+    width:58px;
+    margin-right: 10px;
+}
+
+#banner a{
+    text-decoration:none;
+    color:wheat !important;
+}
+
+.play-img{
+    text-decoration:none;
+}
+/* banner section design ends here */
+
+/* services section design start here */
+
+.title::after{
+    content:'';
+    display: block;
+    background: #7b1798;
+    height:5px;
+    width:200px;
+    margin:auto;
+    transform: translatey(25px);
+
+}
+
+.services-btn{
+    border-radius:20px;
+    margin-top:20px !important;
+    margin:auto;
+    width: 130px;
+    height: 40px;
+    color:white;
+    background-image:linear-gradient(to right,#a517ba,#5f1782) !important ;
+}
+
+.services-btn:hover{
+    color:white;
+    background-image:linear-gradient(to right,#a517ba,#5f1782) !important ;
+}
+/* services section design ends here */
+
+/* About section design start here */
+#about{
+    background-color:#f8f9fa;
+}
+/* About section design ends here */
+
+
+/* testimonials section desing start here */
+.user-img{
+    width:80px;
+
+}
+
+.user-derails{
+    border-left:4px solid #7b1798;
+}
+/*testimonials section design end here */
+
+/* social media section design start here */
+.social-icon-style img{
+    width: 65px;
+    margin-right:3px;
+    transition:0.5s;
+}
+
+.social-icon-style img:hover{
+    transform:translatey(-10PX)
+}
+/* social media section design ends here */
+
+/* footer section design start here */
+#footer{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) !important;
+}
+
+.f-icon{
+    font-size: 25px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782)!important;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+#newsletter-button{
+    margin-top: 20px;
+    border: none!important;
+    border-radius: 0!important;
+    background-image: linear-gradient(to right, #a517ba,#5f1782)!important;
+}
+/* footer section design ends here */
